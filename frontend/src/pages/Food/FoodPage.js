@@ -6,6 +6,7 @@ import StarRating from '../../components/StarRating/StarRating';
 import Tags from '../../components/Tags/Tags';
 import Price from '../../components/Price/Price';
 import { useCart } from '../../Hooks/useCart';
+import NotFound from '../../components/NotFound/NotFound';
 
 export default function FoodPage() {
 
@@ -26,7 +27,8 @@ export default function FoodPage() {
     return (
         <>
             {
-                food && <div className={classes.container}>
+                !food ? (<NotFound message="Food Not Found!" linkText="Back to HomePage"/>) :
+                (<div className={classes.container}>
                     <img 
                         className={classes.image}
                         src ={`/menu/${food.imageUrl}`}
@@ -70,7 +72,7 @@ export default function FoodPage() {
 
                             <button onClick={handleAddToCart}>Add to Cart</button>
                     </div>
-                </div>
+                </div>)
             }
         </>
     )

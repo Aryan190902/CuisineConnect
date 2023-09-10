@@ -1,6 +1,5 @@
 export const sample_foods = [
     {
-      id: '1',
       name: 'Pizza Pepperoni',
       cookTime: '10-20',
       price: 10,
@@ -11,7 +10,6 @@ export const sample_foods = [
       tags: ['FastFood', 'Pizza', 'Lunch'],
     },
     {
-      id: '2',
       name: 'Meatball',
       price: 20,
       cookTime: '20-30',
@@ -22,7 +20,6 @@ export const sample_foods = [
       tags: ['SlowFood', 'Lunch'],
     },
     {
-      id: '3',
       name: 'Hamburger',
       price: 5,
       cookTime: '10-15',
@@ -33,7 +30,6 @@ export const sample_foods = [
       tags: ['FastFood', 'Hamburger'],
     },
     {
-      id: '4',
       name: 'Fried Potatoes',
       price: 2,
       cookTime: '15-20',
@@ -44,7 +40,6 @@ export const sample_foods = [
       tags: ['FastFood', 'Fry'],
     },
     {
-      id: '5',
       name: 'Chicken Soup',
       price: 11,
       cookTime: '40-50',
@@ -55,7 +50,6 @@ export const sample_foods = [
       tags: ['SlowFood', 'Soup'],
     },
     {
-      id: '6',
       name: 'Vegetables Pizza',
       price: 9,
       cookTime: '40-50',
@@ -79,7 +73,6 @@ export const sample_foods = [
 
   export const sample_users = [
     {
-      id: 1,
       name: 'John Doe',
       email: 'john@gmail.com',
       password: '12345',
@@ -87,7 +80,6 @@ export const sample_foods = [
       isAdmin: false,
     },
     {
-      id: 2,
       name: 'Jane Doe',
       email: 'jane@gmail.com',
       password: '12345',

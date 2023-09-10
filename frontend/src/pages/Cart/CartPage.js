@@ -19,7 +19,7 @@ export default function CartPage() {
                 <ul className={classes.list}>
                     {cart.items.map(item => <li key={item.food.id}>
                         <div>
-                            <img src={`/menu/${item.food.imageUrl}`} 
+                            <img src={`${item.food.imageUrl}`} 
                             alt={item.food.name} 
                             />
                         </div>

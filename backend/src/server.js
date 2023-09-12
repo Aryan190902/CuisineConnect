@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
     credentials: true,
-    origin: ['https://cuisine-connect-pf9r.onrender.com/'],
+    origin: ['https://cuisine-connect-pf9r.onrender.com'],
 }))
 
 app.use('/api/foods', foodRouter);

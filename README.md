@@ -1,3 +1,8 @@
+# Website link :
+https://cuisine-connect-pf9r.onrender.com/ <- frontend website
+
+https://cuisine-connect-api.onrender.com/api/foods <- Open this link first to start the backend server
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
